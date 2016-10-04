@@ -1,9 +1,9 @@
 from gi.repository import GObject, Gedit, Gtk
 
-class DarkThemePlugin(GObject.Object, Gedit.WindowActivatable):
+class DarkThemePlugin(GObject.Object, Gedit.AppActivatable):
     __gtype_name__ = "DarkThemePlugin"
 
-    window = GObject.property(type=Gedit.Window)
+    app = GObject.property(type=Gedit.App)
 
     def __init__(self):
         GObject.Object.__init__(self)
