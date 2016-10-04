@@ -1,0 +1,9 @@
+[Plugin]
+Loader=python3
+Module=dark-theme
+IAge=3
+Name=Dark Theme
+Description=Use the dark theme variant
+Authors=Link Dupont <link@sub-pop.net>
+Copyright=Copyright © 2016 Link Dupont
+Website=http://sub-pop.net
